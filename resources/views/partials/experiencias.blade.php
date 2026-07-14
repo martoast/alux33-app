@@ -20,7 +20,7 @@
         <div class="mt-14 grid gap-6 lg:grid-cols-2">
             {{-- Club de playa — con galería --}}
             <button type="button" @click="show(0)"
-                class="reveal group relative overflow-hidden rounded-3xl bg-caribe-950 text-left shadow-lg shadow-ink/5 lg:row-span-2">
+                class="reveal group relative overflow-hidden rounded-3xl bg-caribe-950 text-left shadow-lg shadow-ink/5 lg:row-span-3">
                 <img src="{{ asset('images/alux-bc-atardecer.jpg') }}" alt="Club de playa — experiencia externa (render ilustrativo)" loading="lazy"
                     class="aspect-[4/3] h-full w-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105 lg:aspect-auto">
                 <div class="absolute inset-0 bg-gradient-to-t from-caribe-950/85 via-caribe-950/15 to-transparent"></div>
