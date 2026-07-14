@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alux33-puerto-morelos.netlify.app/sitemap.xml
