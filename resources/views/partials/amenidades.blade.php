@@ -5,9 +5,9 @@
         ['t' => 'Rooftop', 'sub' => 'Convivencia', 'desc' => 'Terraza en la parte alta del proyecto para disfrutar el entorno de Puerto Morelos.', 'tags' => ['Terraza', 'Área social'], 'imgs' => ['alux-roof', 'alux-roof-2']],
         ['t' => 'Poker Room', 'sub' => 'Área social', 'desc' => 'Espacio de juego y convivencia dentro del desarrollo.', 'tags' => ['Juego', 'Convivencia'], 'imgs' => ['alux-poker']],
         ['t' => 'Yoga Hall', 'sub' => 'Bienestar', 'desc' => 'Área dedicada al bienestar y la práctica de yoga.', 'tags' => ['Bienestar'], 'imgs' => ['alux-yoga']],
-        ['t' => 'Gimnasio', 'sub' => 'Bienestar', 'desc' => 'Espacio de ejercicio dentro del proyecto.', 'icon' => 'gym'],
-        ['t' => 'Centro de lavado', 'sub' => 'Servicios', 'desc' => 'Área de lavado de uso común dentro del desarrollo.', 'icon' => 'lavado'],
-        ['t' => 'Acceso controlado', 'sub' => 'Tranquilidad', 'desc' => 'Control de acceso para residentes y visitantes.', 'icon' => 'acceso'],
+        ['t' => 'Gimnasio', 'sub' => 'Bienestar', 'desc' => 'Espacio de ejercicio dentro del proyecto.', 'tags' => ['Bienestar'], 'imgs' => ['alux-gimnasio']],
+        ['t' => 'Centro de lavado', 'sub' => 'Servicios', 'desc' => 'Área de lavado de uso común dentro del desarrollo.', 'tags' => ['Uso común'], 'imgs' => ['alux-lavado']],
+        ['t' => 'Acceso controlado', 'sub' => 'Tranquilidad', 'desc' => 'Control de acceso para residentes y visitantes.', 'tags' => ['Residentes y visitantes'], 'imgs' => ['alux-acceso']],
     ];
     $amenitiesJs = collect($amenities)->map(fn ($a) => [
         't' => $a['t'], 'sub' => $a['sub'], 'desc' => $a['desc'],

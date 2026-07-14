@@ -17,5 +17,5 @@
       cta-inventario, cta-brokers, cta-visita, cta-avance, cta-asesor, plano-*, fab-wa, fab-tel).
 
 ## Ideas / siguientes
-- [ ] Renders de gimnasio y centro de lavado (hoy tarjetas con ícono).
+- [ ] Sustituir los renders AI de gimnasio, centro de lavado y acceso (alux-gimnasio/lavado/acceso.jpg — generados con Nano Banana) por renders oficiales si el cliente los entrega.
 - [ ] Página interna por modelo si el cliente quiere SEO por modelo.

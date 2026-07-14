@@ -8,7 +8,7 @@
             'estado' => 'Consultar', // Disponible · Apartado · Vendido · Consultar
             'img' => 'alux-fuego-playa.jpg',
             'plano' => 0,
-            'cta' => 'Consultar Modelo Fuego',
+            'cta' => 'Ver distribución',
             'specs' => ['1 habitación', '1 baño', 'Desde 48.48 m² hasta 53.54 m²', 'Vista a la playa*', 'Primer nivel*'],
         ],
         [
@@ -16,7 +16,7 @@
             'estado' => 'Consultar',
             'img' => 'alux-agua-playa.jpg',
             'plano' => 2,
-            'cta' => 'Consultar Modelo Agua',
+            'cta' => 'Ver distribución',
             'specs' => ['1 habitación', '1 baño', 'Desde 48.48 m² hasta 53.54 m²', 'Vista a la playa*', 'Primer nivel*'],
         ],
         [
@@ -86,9 +86,9 @@
                         </ul>
                         <div class="mt-auto flex flex-col gap-3 pt-7 sm:flex-row">
                             <button type="button" @click="show({{ $m['plano'] }})" id="plano-{{ $loop->index }}"
-                                class="eyebrow flex-1 rounded-full bg-ink px-6 py-3 text-center text-[0.65rem] text-sand-50 transition-colors hover:bg-wood-500">{{ $m['cta'] }}</button>
+                                class="eyebrow flex-1 whitespace-nowrap rounded-full bg-ink px-6 py-3 text-center text-[0.65rem] text-sand-50 transition-colors hover:bg-wood-500">{{ $m['cta'] }}</button>
                             <a href="#contacto"
-                                class="eyebrow flex flex-1 items-center justify-center rounded-full border border-ink/20 px-6 py-3 text-[0.65rem] text-ink transition-colors hover:border-ink hover:bg-ink hover:text-sand-50">Consultar disponibilidad</a>
+                                class="eyebrow flex flex-1 items-center justify-center whitespace-nowrap rounded-full border border-ink/20 px-6 py-3 text-[0.65rem] text-ink transition-colors hover:border-ink hover:bg-ink hover:text-sand-50">Consultar</a>
                         </div>
                     </div>
                 </article>
