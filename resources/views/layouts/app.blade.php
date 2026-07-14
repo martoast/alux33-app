@@ -229,7 +229,7 @@
             </div>
 
             <div class="mt-14 border-t border-sand-50/10 pt-8 text-xs leading-relaxed text-sand-200/50">
-                <p>© {{ date('Y') }} Alux 33 · Desarrollado por Estratemex · Master broker: Grupo Dihouse. Todos los derechos reservados. · Aviso de Privacidad <span class="text-sand-200/30">· v1.0.1</span></p>
+                <p>© {{ date('Y') }} Alux 33 · Desarrollado por Estratemex · Master broker: Grupo Dihouse. Todos los derechos reservados. · Aviso de Privacidad <span class="text-sand-200/30">· v1.0.2</span></p>
                 <p class="mt-2">
                     Las imágenes, planos, renders, amenidades, experiencias y representaciones mostradas pueden ser ilustrativas y están sujetas a modificaciones.
                     La disponibilidad, superficies, vistas, precios, planes de pago, beneficios y condiciones deben confirmarse con el equipo comercial y pueden cambiar sin previo aviso.

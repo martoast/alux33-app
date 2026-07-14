@@ -2,7 +2,6 @@
 
 @section('content')
     @include('partials.hero')
-    @include('partials.consulta')
     @include('partials.proyecto')
     @include('partials.video')
     @include('partials.concepto')
